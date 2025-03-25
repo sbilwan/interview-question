@@ -1,3 +1,9 @@
+To run the program in replit.com, go to shell
+```
+1. Compile  - mvn clean package
+2. Execute -  mvn exec:java -Dexec.mainClass="org.example.Main"
+```
+
 1. `TotalAmountPerCustomer` - Find the total amount spend by each customer
 
 | CustomerId | Amount | 

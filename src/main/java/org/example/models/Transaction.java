@@ -57,4 +57,6 @@ public class Transaction {
         return new Transaction(splitLine[0], splitLine[1], Double.valueOf(splitLine[2]), LocalDate.parse(splitLine[3]));
     }
 
+
+
 }

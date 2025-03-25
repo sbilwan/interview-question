@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("... Tx Program ...");
         TransactionAnalysis analysis = new TransactionAnalysis(prepWork());
-        //analysis.printTotalAmountPerCustomer();
+        // analysis.printTotalAmountPerCustomer();
         analysis.printTop3SpendersInDescendingOrder();
     }
 
