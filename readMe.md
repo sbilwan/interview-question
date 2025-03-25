@@ -4,7 +4,7 @@ To run the program in replit.com, go to shell
 2. Execute -  mvn exec:java -Dexec.mainClass="org.example.Main"
 ```
 
-1. `TotalAmountPerCustomer` - Find the total amount spend by each customer
+1. `TotalAmountPerSender` - Find the total amount spend by each sender
 
 | CustomerId | Amount | 
 |:-----------|:-------|
@@ -24,6 +24,8 @@ AA, AD, AF
 4. `Month with highest amount spent` - Find the month with highest amount spent.
 - APR or April (* Bonus to print the amount as well.) 
 5. `Months with 0 txs` - Find the month that have no txs. 
+6. `Recivers with maximum amount ` -  AC
+7. `List those who have send and recieve transactions` - AC , AE
 
 
 

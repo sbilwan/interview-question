@@ -1,39 +1,12 @@
 package org.example.analysis;
 
-import org.example.models.Transaction;
+public interface TransactionAnalysis {
 
-import java.util.*;
+    void printTotalAmountPerSender();
+    void printTop3SpendersInDescendingOrder();
+    void printMonthOfHighestAmount();
+    void printMonthOfMaximumTransactions();
+    void printReceiverReceivingMaximumAmount();
+    void printUsersWhoAreBothSendersAndReceivers();
 
-
-public class TransactionAnalysis {
-
-    private final List<Transaction> transactions;
-
-    public TransactionAnalysis(List<Transaction> transactions) {
-        this.transactions = transactions;
-    }
-
-    public void printTotalAmountPerCustomer() {
-      
-    }
-
-    
-
-    public void printTop3SpendersInDescendingOrder() {
-      
-                            
-
-    }
-
-
-    public void printMonthOfHighestAmount() {
-
-    }    
-    
-
-    public void printMonthOfMaximumTransactions() {
-        
-    }
-
-    
 }
